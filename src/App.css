@@ -11,18 +11,32 @@ body,
     display: flex;
     justify-content: space-between;
 }
-
-.circle{
+div:nth-child(1){
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-color: #daa520;
 }
 
-.circle.two, .circle.four{
+div:nth-child(even){
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #daa520;
     align-self: center;
 }
 
-.circle.three{
+div:nth-child(3){
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #daa520;
     align-self: flex-end;
+}
+
+div:nth-child(5){
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #daa520;
 }
